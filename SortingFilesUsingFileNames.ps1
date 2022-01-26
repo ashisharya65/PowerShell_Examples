@@ -1,5 +1,5 @@
 <#
-    Write a script to sort the files (with below mentioned filenames) in an incrementing way :
+    Write a script to sort the file names (with below mentioned filenames) based on the numbers in an incrementing way:
     K1__test_process.js","K3__process.js","K2__qa_testing.js","K10__dimensions.js","K5__closed_loop_testing.js
 
 #>
