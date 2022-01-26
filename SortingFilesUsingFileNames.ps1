@@ -4,6 +4,7 @@
 
 #>
 
+$Files = @("K1__test_process.js","K3__process.js","K2__qa_testing.js","K10__dimensions.js","K5__closed_loop_testing.js")
 #################################################################################################################
 # First Method : MY WAY
 ###############################
