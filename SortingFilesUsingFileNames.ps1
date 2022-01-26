@@ -32,3 +32,14 @@ $Files | Sort-Object { $_ -replace 'K|_.+' -as [int] }
 
 
 #################################################################################################################
+
+<#
+Output
+
+K1__test_process.js
+K2__qa_testing.js
+K3__process.js
+K5__closed_loop_testing.js
+K10__dimensions.js
+
+#>
