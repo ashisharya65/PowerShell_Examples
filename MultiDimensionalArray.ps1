@@ -6,7 +6,7 @@
 $AllUserdetails = 
 @(@("Ashish","Arya","30"),@("Karan","Singh","20"),@("Naveen","Arya","29"))
 
-
+write-host "Accessing Elements of the array" -forground "Green"
 for ($i = 0; $i -lt ($AllUserdetails.Length); $i++) {
     for ($j = 0; $j -lt ($AllUserdetails.Length); $j++) {
        
