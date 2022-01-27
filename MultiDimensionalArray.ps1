@@ -4,8 +4,7 @@
 
 #Defining Array of Arrays
 $AllUserdetails = 
-@(@("Ashish","Arya","30"),@("Karan","Singh","20"),
-@("Naveen","Arya","29"))
+@(@("Ashish","Arya","30"),@("Karan","Singh","20"),@("Naveen","Arya","29"))
 
 
 for ($i = 0; $i -lt ($AllUserdetails.Length); $i++) {
