@@ -1,0 +1,18 @@
+<#
+    Accessing elements of a Two Dimensional Array
+#>
+
+
+$AllUserdetails = 
+@(@("Ashish","Arya","30"),@("Karan","Singh","20"),
+@("Naveen","Arya","29"))
+
+
+for ($i = 0; $i -lt ($AllUserdetails.Length); $i++) {
+    for ($j = 0; $j -lt ($AllUserdetails.Length); $j++) {
+       
+        write-host "Element at $($i) row and $($j) column in the array is : $($AllUserdetails[$i][$j])" -ForegroundColor Green
+       
+    }
+}
+
